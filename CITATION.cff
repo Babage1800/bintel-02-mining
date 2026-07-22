@@ -18,11 +18,13 @@ date-released: "2026-06-28"
 authors:
   - family-names: Case
     given-names: Denise M.
+  - family-names: Bailey
+    given-names: Jared
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
 
-repository-code: "https://github.com/denisecase/bintel-02-mining"
-url: "https://github.com/denisecase/bintel-02-mining"
+repository-code: "https://github.com/Babage1800/bintel-02-mining"
+url: "https://github.com/Babage1800/bintel-02-mining"
 license: MIT
 
 abstract: >

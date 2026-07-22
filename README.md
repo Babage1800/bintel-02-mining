@@ -32,10 +32,10 @@ You'll work with these areas:
 - **pyproject.toml** - update authorship & links
 - **zensical.toml** - update authorship & links
 
-## Instructions (pro-analytics-02)
+## Instructions (bintel-02-mining)
 
 Follow the
-[step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
+[step-by-step workflow guide](https://Babage1800.github.io/bintel-02-mining/workflow-b-apply-example-project/)
 to complete:
 
 1. Phase 1. **Start & Run**
@@ -77,7 +77,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/bintel-02-mining
+git clone https://github.com/Babage1800/bintel-02-mining
 
 cd bintel-02-mining
 code .
@@ -87,7 +87,7 @@ code .
 
 These are listed for convenience.
 For best results, follow the detailed instructions in
-[pro-analytics-02 guide](https://denisecase.github.io/pro-analytics-02/).
+[bintel-02-mining guide](https://Babage1800.github.io/bintel-02-mining/).
 
 ```shell
 uv self update
