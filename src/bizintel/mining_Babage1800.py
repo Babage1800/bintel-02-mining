@@ -2,8 +2,8 @@
 
 An example of exploring and mining raw smart sales data.
 
-Author: Denise Case
-Date: 2026-06
+Author: Denise Case and Jared Bailey
+Date: 2026-07
 
 Process:
     - Load raw CSV data files.
@@ -24,8 +24,6 @@ Terminal command to run this file from the root project folder:
 uv run python -m bizintel.mining_case
 
 OBS:
-  Don't edit this file - it should remain a working example.
-  Copy it, rename it with your alias, and modify your copy.
   If you do, include your command to run it in the docstring above and in README.md.
 """
 
@@ -121,7 +119,7 @@ def plot_price_distribution(df_products: pd.DataFrame) -> None:
     # To find color strings that work in matplotlib,
     # see https://matplotlib.org/stable/gallery/color/named_colors.html
 
-    ax.hist(prices.dropna(), bins=10, color="steelblue", edgecolor="white")
+    ax.hist(prices.dropna(), bins=40, color="orange", edgecolor="white")
 
     # Set the title for the chart
     # And remind users to close the chart window to continue the workflow
