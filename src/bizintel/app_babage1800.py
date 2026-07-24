@@ -106,7 +106,7 @@ def sales_by_region(
     # Region and SaleAmount.
     # Then sort by SaleAmount descending so the highest-revenue region appears first.
     df_region: pd.DataFrame = grouped.reset_index().sort_values(
-        "SaleAmount", ascending=False
+        "SaleAmount", ascending=True
     )
 
     # Use the built-in dataframe iloc (index location) method
@@ -183,7 +183,7 @@ def sales_by_category(
     # Category and SaleAmount.
     # Then sort by SaleAmount descending so the highest-revenue category appears first.
     df_category: pd.DataFrame = grouped.reset_index().sort_values(
-        "SaleAmount", ascending=False
+        "SaleAmount", ascending=True
     )
 
     # Use the built-in dataframe iloc (index location) method
@@ -312,7 +312,7 @@ def main() -> None:
         title="Earnings Based On Product Type",
         xlabel="Type Of Product",
         ylabel="Dollars Gained",
-        palette="Oranges_d",
+        palette="Reds_d",
     )
 
     LOG.info("CALL a function to summarize the datasets........")
