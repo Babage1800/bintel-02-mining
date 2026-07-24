@@ -295,10 +295,10 @@ def main() -> None:
         df=df_region,
         x="Region",
         y="SaleAmount",
-        title="Total Sales by Region",
-        xlabel="Region",
-        ylabel="Total Sales Amount ($)",
-        palette="Blues_d",
+        title="Earnings Based On Location",
+        xlabel="Area",
+        ylabel="Dollars Gained",
+        palette="Reds_d",
     )
 
     LOG.info("CALL a function to get sales by product category........")
@@ -309,10 +309,10 @@ def main() -> None:
         df=df_category,
         x="Category",
         y="SaleAmount",
-        title="Total Sales by Product Category",
-        xlabel="Category",
-        ylabel="Total Sales Amount ($)",
-        palette="Greens_d",
+        title="Earnings Based On Product Type",
+        xlabel="Type Of Product",
+        ylabel="Dollars Gained",
+        palette="Oranges_d",
     )
 
     LOG.info("CALL a function to summarize the datasets........")

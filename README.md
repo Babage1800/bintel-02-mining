@@ -105,6 +105,7 @@ uvx pre-commit run --all-files
 
 # run the example module
 uv run python -m bizintel.mining_babage1800
+uv run python -m bizintel.app_babage1800
 
 # run common chores
 uv run ruff format .
