@@ -24,7 +24,7 @@ to get the example projects running on your machine.
 Describe your small technical modification to the example project.
 
 Include:
-
+Test
 - What you changed
 - Why you chose that change
 - How you verified that it worked
