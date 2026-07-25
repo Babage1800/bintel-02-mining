@@ -21,64 +21,48 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
 
-Include:
-Test
-- What you changed
-- Why you chose that change
-- How you verified that it worked
+
+
+- I changed the titles of the graphs and their axes.- Why you chose that change
+- I did this because I wanted to start with basic modifications.
+
+- I have verified that it works.
 - What result, output, chart, metric, or behavior confirmed the change
+There are titles in the graphs.
 
-Compared with the example project,
-explain what is different and why the change matters.
+It is different because the phrasing has changed.  It matters because it shows there are multiple ways of expressing something.
 
-Was it easy, or surprisingly challenging and why do you think so?
+
+It was suprisingly challenging because I did not know what part of the code needed to be changed to accomplish this.
 
 ## Phase 5. Custom Project
 
-Describe your custom data mining and exploration work.
+I read through the data files and how it could all be sumarized.
 
 ### Basis and Data
 
-Describe the raw data you worked with.
 
-Include:
 
-- The three smart sales data files and what each contains
-- Any data quality issues you observed during loading
-- Any important limitations or assumptions about the raw data
+The customers data included the customer's name, ID, and date of joining.  The products data included the product's name, ID, category, and unit price.  The sales data included the transaction's ID, sale date, sale amount, and campaign ID.  It also includes the IDs of the customers, the products, and the stores.
+
+The data quality appeared to be good.
+One possible limitation is that regions had different capitalizations and that mean there will be some data that is not read by the program.
 
 ### Mining Approach
 
-Describe how you explored and visualized the data.
-
-Include:
-
-- Which DataFrames you loaded and inspected
-- What changes you made to make the example charts more effective
-- What distributions or trends you chose to visualize and why
-- What additional chart or analysis you added beyond the example
+I loaded the customers, products, and sales data.
+I made the bar chart orange so it was more vibrant and I change it to 40 bins so the information was more specific.
+I wanted to show the groups represented by the original bins are more complex then a person may suspect.  By having more bins in this instance, there is a better understanding of the data.
 
 ### Findings
 
-Describe what you discovered about the smart sales data.
-
-Include:
-
-- What the data reveals about customers, products, and sales
-- What data quality issues are present and how serious they are
-- What questions your exploration raised for later modules
+The data reveals that customers are from many regions and our willing to spend lots of money on a variety of products.
+One issue is that the regions do not seem to be processed in a uniform system of capitalization.  
+Could this be an issue in processing?
 
 ### Summary
 
-Summarize your custom data mining work.
-
-Include:
-
-- What you implemented beyond the example
-- What results or insights you produced
-- What you learned
-- What kinds of real business problems this approach could help answer
+Beyond the example, I also changed the charts from the previous project so that the bars are now red and ascending.  This produced more vibrant graphs with the focus put on the lower sales.  This does a better job of making weaker sales stand out.  This could help businesses better see areas that need improvement.
 
 Display at least one chart or screenshot showing your work.
